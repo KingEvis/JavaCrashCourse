@@ -1,2 +1,2 @@
 # JavaCrashCourse
-Relearning shit I forgot.
+Relearning shit I forgot. - learning Git
