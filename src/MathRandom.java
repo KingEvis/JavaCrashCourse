@@ -10,7 +10,9 @@ public class MathRandom {
         //Code goes here
         numA=Math.random();
         numB= (int) (Math.random()*101);
+        numC= (int) ((Math.random()*101)-50);
         System.out.println(numA);
         System.out.println(numB);
+        System.out.println(numC);
     }
 }
