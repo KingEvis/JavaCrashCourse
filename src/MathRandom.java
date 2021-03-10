@@ -7,8 +7,8 @@ public class MathRandom {
         double numA;
         int numB;
         int numC;
-
         //Code goes here
-
+        numA=Math.random();
+        System.out.println(numA);
     }
 }
