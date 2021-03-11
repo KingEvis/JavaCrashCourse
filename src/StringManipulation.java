@@ -16,7 +16,7 @@ public class StringManipulation {
     }
     public static void stringPrinter(){
         //FIX the line below
-        //System.out.println("We are "DANCERS", so all we do is "DANCE"!");
+        System.out.println("We are \"DANCERS\", so all we do is \"DANCE\"!");
     }
     public static void stringSaw(){
         String info = "Tom Jackson 35";//DO NOT CHANGE ME
