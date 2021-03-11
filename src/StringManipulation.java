@@ -12,7 +12,7 @@ public class StringManipulation {
     }
     public static void getStringSize(String s){
         //Code here(Find the size of s)
-
+        System.out.println(s.length());
     }
     public static void stringPrinter(){
         //FIX the line below
