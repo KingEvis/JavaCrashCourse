@@ -23,6 +23,12 @@ public class StringManipulation {
         String fName, lName;
         String age;
         //Code here
+        fName = info.substring(0,3);
+        lName = info.substring(4,11);
+        age = info.substring(12,14);
+        System.out.println(fName);
+        System.out.println(lName);
+        System.out.println(age);
 
     }
     public static void parseMe(){
