@@ -35,6 +35,7 @@ public class StringManipulation {
         String stringA = "30";//DO NOT CHANGE ME
         String stringB = "15";//DO NOT CHANGE ME
         //Code here
+        System.out.println(Integer.parseInt(stringA)+Integer.parseInt(stringB));
     }
 
 }
