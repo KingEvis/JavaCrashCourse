@@ -11,6 +11,7 @@ public class MoreStrings {
         System.out.println("addingNot:");
         System.out.println(addingNot("Hes a plant"));
         System.out.println(addingNot("Marrys a bully"));
+        System.out.println(addingNot("NoSpacesTest"));
         System.out.println("-------------------------------");
 
         System.out.println("startsWithHot");
@@ -40,7 +41,6 @@ public class MoreStrings {
             result = (s.substring(0, PositionOfX)+s.substring(PositionOfX+1)); //need to add two strings together here
             return result;
         }
-        System.out.println(result);
         return result;
 
     }
@@ -48,7 +48,13 @@ public class MoreStrings {
     private static String addingNot(String s) {
         String result = "";
         //Code here and store the return value into result
-
+        int PositionOfSpace = s.indexOf(' ');
+        if(PositionOfSpace == -1){
+            result = s;
+        }
+        if (PositionOfSpace >= 0) {
+            result = (s.substring(0, PositionOfSpace)+" Not " +s.substring(PositionOfSpace+1));
+        }
         return result;
     }
 
