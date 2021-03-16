@@ -60,6 +60,16 @@ public class MoreStrings {
 
     private static void startsWithHot(String s) {
         //Code here
+        String sLower = s.toLowerCase();
+        String firstThreeChar = sLower.substring(0, 3);
+        System.out.println(firstThreeChar);
+        System.out.println(firstThreeChar.equals("hot"));
+//        if (firstThreeChar=="hot"){
+//            System.out.println(true);
+//        }
+//        else{
+//            System.out.println(false);
+        }
     }
 
 
