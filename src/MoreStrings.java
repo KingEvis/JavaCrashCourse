@@ -21,6 +21,25 @@ public class MoreStrings {
         startsWithHot("So fing hot");
         startsWithHot("hOt or not");
 
+        for (int i = 1; i < 51; i++){
+            if(i%3!=0 && i%5!=0){
+                System.out.println(i);
+            }
+            if(i%3==0 && i%5==0) {
+                System.out.println("BingBong");
+            }
+            if(i%3==0 && i%5!=0) {
+                System.out.println("Bing");
+            }
+            if(i%3!=0 && i%5==0) {
+                System.out.println("Bong");
+            }
+
+        }
+//        Write a program that print numbers from 1 to 50 on a new line.
+//        For each multiple of 3, print "Bing" instead of the number.
+//        For each multiple of 5, print "Bong" instead of the number.
+//        For numbers which are multiples of both 3 and 5, print "BingBong" instead of the number.
 
     }
 
